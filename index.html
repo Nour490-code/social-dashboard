@@ -18,11 +18,11 @@
 </head>
 <body>
   <div class="container">
-    <header>
+    <header id="header">
       <div class="header__title margin">
-        <h1>Social Media Dashboard</h1>
-        <h4>Total Followers: 23,004</h4>
-        <div class="border-mob"></div>
+        <h1 class="darkBlue">Social Media Dashboard</h1>
+        <h4 class="greyishBlue">Total Followers: 23,004</h4>
+        <div id="border" class="border-mob"></div>
       </div>
       <div class="header__switch">
         <label for="dark-mode">Dark Mode</label>
@@ -35,52 +35,52 @@
     </header>
   
     <section class="followers">
-      <div class="followers__card followers__card--facebook margin">
+      <div class="followers__card followers__card--facebook margin card" >
         <div class="followers__card__acc">
           <img src="./images/icon-facebook.svg">
-          <h5>@nathanf</h5>
+          <h5 class="greyishBlue">@nathanf</h5>
         </div>
-        <h1>1987</h1>
-        <p>Followers</p>
+        <h1 class="darkBlue">1987</h1>
+        <p class="greyishBlue">Followers</p>
         <div class="followers__card__rating">
           <img src="./images/icon-up.svg">
           <span class="followers__card--up">12 Today</span>
         </div>
       </div>
 
-     <div class="followers__card followers__card--twitter">
+     <div class="followers__card followers__card--twitter card">
       <div class="followers__card__acc">
         <img src="./images/icon-twitter.svg">
-        <h5>@nathanf</h5>
+        <h5 class="greyishBlue" class="darkBlue">@nathanf</h5>
       </div>
-      <h1>1044</h1>
-      <p>Followers</p>
+      <h1 class="darkBlue" >1044</h1>
+      <p class="greyishBlue">Followers</p>
       <div class="followers__card__rating">
         <img src="./images/icon-up.svg">
         <span class="followers__card--up">99 Today</span>
       </div>
      </div>
 
-     <div class="followers__card followers__card--insta">
+     <div class="followers__card followers__card--insta card">
       <div class="followers__card__acc">
         <img src="./images/icon-instagram.svg">
-        <h5>@realnathanf</h5>
+        <h5 class="greyishBlue" class="darkBlue">@realnathanf</h5>
       </div>
-      <h1>11k</h1>
-      <p>Followers</p>
+      <h1 class="darkBlue">11k</h1>
+      <p class="greyishBlue">Followers</p>
       <div class="followers__card__rating">
         <img src="./images/icon-up.svg">
         <span class="followers__card--up">1099 Today</span>
       </div>
      </div>
 
-     <div class="followers__card followers__card--youtube">
+     <div class="followers__card followers__card--youtube card">
       <div class="followers__card__acc">
         <img src="./images/icon-youtube.svg">
-        <h5>Nathan F.</h5>
+        <h5 class="greyishBlue" class="darkBlue">Nathan F.</h5>
       </div>
-      <h1>8239</h1>
-      <p>Subscribers</p>
+      <h1 class="darkBlue">8239</h1>
+      <p class="greyishBlue">Subscribers</p>
       <div class="followers__card__rating">
         <img src="./images/icon-down.svg">
         <span class="followers__card--down">144 Today</span>
@@ -88,101 +88,105 @@
      </div>
     </section>
 
+
+
+
     <section class="overview margin">
-      <h2 class="overview__head">Overview - Today</h2>
+      <h2 class="overview__head greyishBlue">Overview - Today</h2>
       <div class="overview__boxes1">
         
-        <div class ="overview__box">
+        <div class ="overview__box card">
           <div class="overview__box__flex1">
-            <h5>Page Views</h5>
+            <h5 class="greyishBlue">Page Views</h5>
             <img class="img" src="./images/icon-facebook.svg">
           </div>
           <div class="overview__box__flex2">
-            <h1>87</h1>
+            <h1 class="darkBlue">87</h1>
             <span class="followers__card--up"><img src="./images/icon-up.svg" alt=""> 3%</span>
           </div>
         </div>
 
-        <div class ="overview__box">
+        <div class ="overview__box card">
           <div class="overview__box__flex1">
-            <h5>Likes</h5>
+            <h5 class="greyishBlue">Likes</h5>
             <img class="img img2" src="./images/icon-facebook.svg">
           </div>
           <div class="overview__box__flex2">
-            <h1>52</h1>
+            <h1 class="darkBlue">52</h1>
             <span class="followers__card--down"><img src="./images/icon-down.svg" alt=""> 2%</span>
           </div>
         </div>
 
-        <div class ="overview__box">
+        <div class ="overview__box card">
           <div class="overview__box__flex1">
-            <h5>Likes</h5>
+            <h5 class="greyishBlue">Likes</h5>
             <img class="img img3" src="./images/icon-instagram.svg">
           </div>
           <div class="overview__box__flex2">
-            <h1>5462</h1>
+            <h1 class="darkBlue">5462</h1>
             <span class="followers__card--up"><img src="./images/icon-up.svg" alt=""> 2257%</span>
           </div>
         </div>
 
-        <div class ="overview__box">
+        <div class ="overview__box card">
           <div class="overview__box__flex1">
-            <h5 class="left">Profile Views</h5>
+            <h5 class="left greyishBlue">Profile Views</h5>
             <img class="img img4" src="./images/icon-instagram.svg">
           </div>
           <div class="overview__box__flex2">
-            <h1>52k</h1>
+            <h1 class="darkBlue">52k</h1>
             <span class="followers__card--up"><img src="./images/icon-up.svg" alt="">1375%</span>
           </div>
         </div>
       </div>
 
       <div class="overview__boxes2">
-        <div class ="overview__box">
+        <div class ="overview__box card">
           <div class="overview__box__flex1">
-            <h5 class="left">Retweets</h5>
+            <h5 class="left greyishBlue">Retweets</h5>
             <img class="img img5" src="./images/icon-twitter.svg">
           </div>
           <div class="overview__box__flex2">
-            <h1>117</h1>
+            <h1 class="darkBlue">117</h1>
             <span class="followers__card--up"><img src="./images/icon-up.svg" alt=""> 303%</span>
           </div>
         </div>
 
-        <div class ="overview__box">
+        <div class ="overview__box card">
           <div class="overview__box__flex1">
-            <h5 class="left2">Likes</h5>
+            <h5 class="left2 greyishBlue">Likes</h5>
             <img class="img img3" src="./images/icon-twitter.svg">
           </div>
           <div class="overview__box__flex2">
-            <h1>507</h1>
+            <h1 class="darkBlue">507</h1>
             <span class="followers__card--up"><img src="./images/icon-up.svg" alt=""> 553%</span>
           </div>
         </div>
 
-        <div class ="overview__box">
+        <div class ="overview__box card">
           <div class="overview__box__flex1">
-            <h5 class="left">Likes</h5>
+            <h5 class="left greyishBlue">Likes</h5>
             <img class="img img2" src="./images/icon-youtube.svg">
           </div>
           <div class="overview__box__flex2">
-            <h1>107</h1>
+            <h1 class="darkBlue">107</h1>
             <span class="followers__card--down"><img src="./images/icon-down.svg" alt=""> 19%</span>
           </div>
         </div>
 
-        <div class ="overview__box">
+        <div class ="overview__box card">
           <div class="overview__box__flex1">
-            <h5 class="left">Total Views</h5>
+            <h5 class="left greyishBlue">Total Views</h5>
             <img class="img img4" src="./images/icon-youtube.svg">
           </div>
           <div class="overview__box__flex2">
-            <h1>1407</h1>
+            <h1 class="darkBlue">1407</h1>
             <span class="followers__card--down"><img src="./images/icon-down.svg" alt=""> 12%</span>
           </div>
         </div>
       </div>
     </section>
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
